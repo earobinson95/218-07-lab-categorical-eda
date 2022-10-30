@@ -1,0 +1,75 @@
+---
+title: "Lab 7 Feedback"
+format: html
+---
+
+# COMPLETION
+
+## Check Bar Plots
+
+### First one: x = Sight**
+
+### Second one: x = Light**
+
+### Third one: x = Sight but add geom_bar(aes(y = ..prop.., group = 1))**
+
+**If they didn't plot the proportion**
+
+If we want the relative frequency (proportion) plotted instead of the counts we need to include "geom_bar(aes(y = ..prop.., group = 1))".
+
+**If they didn't change the y-axis label to indicate proportion**
+
+What is our y-axis now plotting? Is it the count? the proportion?
+
+## Question 4
+
+**If they only provide an estimate for the myopia group**
+
+Notice that children having some level of myopia includes both the myopia and the high myopia group.
+
+## Question 7
+
+## Question 10
+
+**If they didn't put `n` in their `mutate` numerator**
+
+What is the name of the column we want to use as the numerator in our proportion calculation? Recall in the previous code we calculated the number of children in each myopia level.
+
+## Question 12
+
+**If they say the y-axis label changes**
+
+Yes, for the stacked and dodged bar plots we are plotting the number of children and in the filled bar plot we are plotting the proportion. However, look carefully at what code tells the chart where to place the bars. The position = input matches with the type of plot we want to create.
+
+
+## Question 13
+
+**If they have `Sight` in the columns and `Light` in the rows.**
+
+It is typical to place the explanatory variable on the columns and the response variable in the rows. How would you flip your contingency table around?
+
+## Question 17
+
+
+
+# Canvas Quiz
+
+## Question 1
+
+**If they switch around Light and Sight**
+
+The researchers are interested in seeing how the level of light changes the level of myopia later in childhood - not how the level of myopia changes what level of light children sleep with.
+
+**If they put one of the variable levels as a variable**
+
+Our variables, Light and Sight, are categorical and have levels. These levels are not the variables themselves but groups/categories for that variable.
+
+
+## Question 2
+
+**If they include the variables Light and Sight in their answer**
+
+Careful! Our observational unit is what we are taking measurements on / information about. In this case it is just a child - the light and sight are our variables.
+
+
+
